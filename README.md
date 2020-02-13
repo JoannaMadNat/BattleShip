@@ -8,4 +8,6 @@ University project for Computer Science II, CpS 209
 ## Usage
 Go to bin > Release > BattleShip.exe
 
+Either that or build it in Visual Studio.
+
 Enjoy!
