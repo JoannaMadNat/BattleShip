@@ -1,0 +1,17 @@
+﻿<Window x:Class="Battleship.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Battleship"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="650" Width="1025" Loaded="Window_Loaded">
+    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Orientation="Vertical" >
+        <TextBlock Text="Battleship!" FontSize="36" Margin="0,50,0,50" HorizontalAlignment="Center" />
+        <StackPanel Orientation="Horizontal">
+            <StackPanel x:Name="playerPanel" Orientation="Vertical" Margin="0,20,0,20"/>
+            <StackPanel x:Name="computerPanel" Orientation="Vertical" Margin="0,20,0,20"/>
+        </StackPanel>
+        <TextBlock x:Name="txtFeedback" Text="Some Feedback Appears Here" FontSize="16" Margin="0,50,0,50" HorizontalAlignment="Center" />
+    </StackPanel>
+</Window>
